@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Malcolm Jones" />
-    <meta name="description" content="This is the personal website for Malcolm Jones who is a pure mathematician from New Zealand." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Malcolm Jones &ndash; Home</title>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="author" content="Malcolm Jones" />
+	<meta name="description" content="This is the personal website for Malcolm Jones who is a pure mathematician from New Zealand." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Malcolm Jones &ndash; Home</title>
 
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Captioned Image</title>
-    <style>
-        /* Add your CSS styles here */
-        .container {
-            text-align: center;
-        }
-        img {
-            max-width: 25%;
-            height: auto;
-        }
-        .caption {
-            /* font-family: Arial, sans-serif; */
-            /* font-size: 16px; */
-            color: #333;
-            margin-top: 10px;
-        }
-    </style>
-  </head>
-  <body>
-	<nav>
-		<a href="./index.html">Home</a>
-		<br>
-		<a href="./research.html">Research</a>
-		<a href="./teaching.html">Teaching</a>
-		<a href="./service.html">Organisation and Affiliation</a>
-	</nav>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
 
-	<h1>Malcolm Jones</h1>
+	<div id="title">Malcolm Jones</div>
 
-	<hr />
-	<p>I am a PhD candidate in pure mathematics at Victoria University of Wellington, New Zealand, focusing on algebraic topics with a range of applications in functional analysis (supervised by Prof Lisa Orloff Clark and Prof Astrid an Huef). I also work in data science with a focus on climate-related projects.</p>
+	<ul id="nav">
+		<li><a class="selected" href="index.html">Home</a></li>
+		<li><a href="./research.html">Research</a></li>
+		<li><a href="./teaching.html">Teaching</a></li>
+		<li><a href="./service.html">Other Activities</a></li>
+	</ul>
 
-	<div class="container">
-        <img src="deer_valley.JPG" alt="Captioned Image">
-        <p class="caption">Deer Valley, Southern Alps, New Zealand, January 2024</p>
-    </div>
+	<div id="maincontent">
 
-    Contact email: <a href="mailto:malcolm.jones@vuw.ac.nz">malcolm.jones@vuw.ac.nz</a> or <a href="mailto:hello@malcolmjones.me">hello@malcolmjones.me</a>
+		<p>
+			I am a PhD candidate in pure mathematics at Victoria University of Wellington, New Zealand, focusing on algebraic topics with a range of applications in functional analysis (supervised by Prof Lisa Orloff Clark and Prof Astrid an Huef). I also work in data science with a focus on climate-related projects.
+		</p>
 
-	<hr />
-	Last updated: 27 January 2024.
+		<div class="container">
+			<img src="deer_valley.JPG" alt="image_deer_valley">
+			<p class="caption">
+				Deer Valley, Southern Alps, New Zealand, January 2024
+			</p>
+		</div>
 
-  </body>
+		<p>
+			Contact: <a href="mailto:malcolm.jones@vuw.ac.nz">malcolm.jones@vuw.ac.nz</a> or <a href="mailto:hello@malcolmjones.me">hello@malcolmjones.me</a>
+			<br />
+		</p>
+
+		<div id="footer">
+
+			<div id="copyright">
+				Copyright &copy; 2023 Malcolm Jones
+			</div>
+
+		</div>	
+
+	</div>
+
+</body>
 </html>
