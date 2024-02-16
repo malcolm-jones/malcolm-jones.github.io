@@ -32,6 +32,17 @@
 	padding: 10px;
 }
 
+/* container */
+.two-columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* columns */
+.two-columns-grid > * {
+    padding:1rem;
+}
+
 body {
 	color: #000000;
 	background-color:#FFFFFF;
