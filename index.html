@@ -18,16 +18,24 @@
 	<meta property="og:title" content="Malcolm Jones"/>
 	<meta name= "robots" content="index, follow">
 
+	<script src="main.js" type="module"></script>
+
 </head>
 <body>
 
 	<div class="header">Malcolm Jones</div>
 
-	<div class="menu">
-		<ul id="nav">
-			<li><a href="mailto:hello@malcolmjones.me">hello@malcolmjones.me</a></li>
-		</ul>
+	<div class="text-center">
+		<button type="button" class="copy" data-copy=".my-email">
+			<ion-icon name="copy-outline" class="copy-icon"></ion-icon>
+			<span class="copy-label my-email">
+				hello@malcolmjones.me
+			</span>
+		</button>
 	</div>
+	
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 	<div class="menu">
 		<ul id="nav">
