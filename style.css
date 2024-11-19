@@ -32,6 +32,27 @@
 	padding: 10px;
 }
 
+.banner {
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 0px solid black;
+	margin: 0;
+	background-color: var(--color-primary);
+	color: var(--color-secondary);
+}
+
+.card {
+	width: 100%;
+	height: auto;
+	padding-left: 10px;
+	border: 1px solid black;
+	margin: 0;
+}
+
 /* container */
 .two-columns-grid {
     display: grid;
