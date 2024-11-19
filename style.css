@@ -212,26 +212,9 @@ details {
 	user-select: text;
 	border: 1px solid var(--color-primary);
 	padding: 5px;
-	margin: 5px;
-}
-
-details>summary span.icon {
-	width: 24px;
-	height: 24px;
-	transition: all 0.3s;
-}
-
-details[open] summary span.icon {
-	transform: rotate(90deg);
-}
-
-summary {
-	display: flex;
-	cursor: pointer;
-}
-
-summary::-webkit-details-marker {
-	display: none;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 /* Copy to clipboard buttons */
