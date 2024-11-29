@@ -2,13 +2,15 @@
 	padding:0;
 	margin:0;
 	box-sizing: border-box;
-	/* font-weight: 600; */
+	font-size: 100%;
+	/* font-family: 'Courier New', monospace; */
+    font-family: OpenDyslexic;
 }
 
 :root {
 	--color-primary: #000000; 
 	--color-secondary: #789600; 
-	--my-max-width: 800px;
+	--my-max-width: 1000px;
 }
 
 .header {
@@ -67,17 +69,10 @@
 body {
 	color: var(--color-primary);
 	background-color: var(--color-secondary);
-	/* font-family: 'Courier New', monospace; */
-    font-family: OpenDyslexic;
 	margin:20px auto;
 	max-width:var(--my-max-width);
 	padding-left:5px;
 	padding-right:5px;
-}
-
-span {
-	/* font-family: 'Courier New', monospace; */
-    font-family: OpenDyslexic;
 }
 
 h1, h2, h3, h4, p, ul { margin:0.75em 0;}
@@ -97,13 +92,11 @@ li, dd {
 a {
 	color: var(--color-primary);
 	background-color: var(--color-secondary);
-	font-weight: 600;
 	text-decoration: underline;
 	outline:none;
 }
 
 a:hover {
-	font-weight: 600;
 	text-decoration: none;
 }
 
@@ -184,7 +177,6 @@ ul#nav li a {
 	display: block;
 	font-size: small;
 	color: var(--color-primary);
-	font-weight: 600;
 	text-decoration: none;
 	background: var(--color-secondary);
 	padding: 2px 0px 2px 0px;
