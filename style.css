@@ -4,13 +4,14 @@
 	box-sizing: border-box;
 	font-size: 100%;
 	/* font-family: 'Courier New', monospace; */
-    font-family: OpenDyslexic;
+    /* font-family: OpenDyslexic; */
+	font-family: 'Garamond'
 }
 
 :root {
 	--color-primary: #000000; 
 	--color-secondary: #789600; 
-	--my-max-width: 1000px;
+	--my-max-width: 800px;
 }
 
 .header {
@@ -51,6 +52,7 @@
 	width: 100%;
 	height: auto;
 	padding-left: 10px;
+	padding-right: 10px;
 	border: 1px solid black;
 	margin: 0;
 }
