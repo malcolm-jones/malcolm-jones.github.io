@@ -185,7 +185,7 @@ ul#nav li {
 
 ul#nav li a {
 	display: block;
-	font-size: small;
+	/* font-size: small; */
 	color: var(--color-primary);
 	text-decoration: none;
 	background: var(--color-secondary);
