@@ -77,7 +77,7 @@ body {
 	padding-right:5px;
 }
 
-h1, h2, h3, h4, p, ul { margin:0.75em 0;}
+h1, h2, h3, h4, p { margin:0.75em 0;}
 
 h1 {font-size:180%;}
 
@@ -86,6 +86,14 @@ h2 {font-size:160%;}
 h3 {font-size:140%;}
 
 h4 {font-size:120%;}
+
+ul {
+	padding-left: 0px;
+}
+
+ul ul {
+	padding-left: 20px;
+}
 
 li, dd { 
 	margin-left:2em;
@@ -191,10 +199,11 @@ ul#nav a.selected:visited { background: var(--color-primary); color: var(--color
 #footer {
 	color: var(--color-primary);
 	border-top:1px solid var(--color-secondary);
-	font-size:80%;
 	line-height:1.5em;
 	max-width: var(--my-max-width);
 	clear:both;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #copyright {
