@@ -9,3 +9,15 @@ graph01:
 	\arrow["{{\alpha_n}}"', dashed, from=2-3, to=3-2]
 	\arrow["\lambda", from=3-2, to=2-1]
 \end{tikzcd}
+
+graph02:
+
+\begin{tikzcd}[column sep=1cm, row sep=1cm]
+	\& t \\
+	v \&\& u \\
+	\& w
+	\arrow["\mu"', dashed, from=1-2, to=2-1]
+	\arrow["{{\beta_n}}", from=2-3, to=1-2]
+	\arrow["\alpha"', dashed, from=2-3, to=3-2]
+	\arrow["{\lambda_n}", from=3-2, to=2-1]
+\end{tikzcd}
