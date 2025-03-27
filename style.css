@@ -265,3 +265,8 @@ details {
 	cursor: pointer;
 	margin: auto;
 }
+
+custom-slider {
+	margin-top: 0;
+	padding: 0;
+}
