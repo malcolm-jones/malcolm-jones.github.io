@@ -270,3 +270,24 @@ custom-slider {
 	margin-top: 0;
 	padding: 0;
 }
+
+.place-and-time {
+	display: flex; 
+	align-items: baseline; 
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+
+.place {
+	margin-bottom: 0;
+}
+
+.time {
+	white-space: nowrap;
+}
+
+.dotfill {
+	flex-grow: 1;
+	border-bottom: 1px dotted var(--color-primary);
+	margin: 0 5px;
+}
