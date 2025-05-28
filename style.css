@@ -273,9 +273,7 @@ custom-slider {
 
 .place-and-time {
 	display: flex; 
-	align-items: baseline; 
-	margin-top: 0; 
-	margin-bottom: 0;
+	align-items: baseline;
 }
 
 .place {
