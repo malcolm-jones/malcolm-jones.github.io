@@ -184,6 +184,10 @@ details {
 	margin-bottom: 5px;
 }
 
+details[open] summary {
+	margin-bottom: 10px;
+}
+
 /* Copy to clipboard buttons */
 
 .copy {
