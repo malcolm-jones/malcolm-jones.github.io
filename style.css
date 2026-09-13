@@ -3,10 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-size: 100%;
-	/* font-family: 'Courier New', monospace; */
-    /* font-family: OpenDyslexic; */
-	/* font-family: 'Times New Roman', serif; */
-	font-family: 'Candara';
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root {
